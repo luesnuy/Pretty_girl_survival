@@ -96,6 +96,11 @@ input[type=text] {
     height: 50px;
 }
 
+.choosebutton {
+    width: 500px;
+    height: 40px;
+}
+
 
 @media screen and (max-width: 1080px) {
     #title {

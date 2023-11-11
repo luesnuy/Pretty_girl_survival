@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/inputnickname.css">
     <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/choose.css">
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
 
-<body type="button" onclick="location.href='mainstory2.html'">
+<body type="button" onclick="location.href=''">
     <header class="site-header">
         <div class="site-identity">
             <h1><a href="index.html">여신 생존기</a></h1>
@@ -27,11 +28,14 @@
             </ul>
         </nav>
     </header>
-    <img src="img/개학식 스토리 1.jpg" class="mainimg">
-    <br>
-    <section class="textbox">
-        오늘은 고등학교 입학식.
-    </section>
+    <div class="storyobject">
+        <img src="img/남주 1.png" class="character" id="character">
+        <section>
+            <button class="choosebutton" onclick="location.href='story1.html'">헐 뭐야.. 잘생겼잖아?</button>
+            <br><br>
+            <button class="choosebutton" onclick="location.href='story1.html'">뭐야 저 기생오라비는</button>
+        </section>
+    </div>
     <script src="js/nicknamecome.js"></script>
     <script src="js/story.js"></script>
 </body>

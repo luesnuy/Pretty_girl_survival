@@ -1,0 +1,39 @@
+.textboxchoose {
+    text-align: center;
+    align-items: center;
+}
+
+.character {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 550px;
+
+}
+
+.character1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 500px;
+}
+
+#character1 {
+    margin: auto;
+    display: block;
+}
+
+#character {
+    margin: auto;
+    display: block;
+}

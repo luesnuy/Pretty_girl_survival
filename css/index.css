@@ -1,0 +1,298 @@
+#title {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    position: absolute;
+    top: 5px;
+}
+
+.iconimg {
+    width: 50px;
+    height: 50px;
+}
+
+* {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: rgb(179, 179, 179);
+}
+
+.yourname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh
+}
+
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+
+.animation {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.animation2 {
+    position: absolute;
+    right: 250px;
+    bottom: 150px;
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+input[type=text] {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: 0;
+    border-color: #6e8efb;
+    border-radius: 15px;
+    background-color: rgb(217, 217, 217);
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 1080px) {
+    #title {
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        position: absolute;
+        top: 5px;
+    }
+
+    .iconimg {
+        width: 50px;
+        height: 50px;
+    }
+
+    * {
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+        color: rgb(179, 179, 179);
+    }
+
+    .yourname {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 75vh
+    }
+
+    .site-header {
+        border-bottom: 1px solid #ccc;
+        padding: 0.5em 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .site-identity h1 {
+        font-size: 1.5em;
+        margin: 0.6em 0;
+        display: inline-block;
+    }
+
+    .site-navigation ul,
+    .site-navigation li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .site-navigation li {
+        display: inline-block;
+        margin: 1.4em 1em 1em 1em;
+    }
+
+    .animation {
+        position: absolute;
+        left: 150px;
+        top: 150px;
+        animation-name: rotation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .animation2 {
+        position: absolute;
+        right: 150px;
+        bottom: 150px;
+        animation-name: rotation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotation {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    input[type=text] {
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        border: 0;
+        border-color: #6e8efb;
+        border-radius: 15px;
+        background-color: rgb(217, 217, 217);
+    }
+
+    .button {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #title {
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        position: absolute;
+        top: 5px;
+    }
+
+    .iconimg {
+        width: 50px;
+        height: 50px;
+    }
+
+    * {
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+        color: rgb(179, 179, 179);
+    }
+
+    .yourname {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 75vh
+    }
+
+    .site-header {
+        border-bottom: 1px solid #ccc;
+        padding: 0.5em 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .site-identity h1 {
+        font-size: 1.5em;
+        margin: 0.6em 0;
+        display: inline-block;
+    }
+
+    .site-navigation ul,
+    .site-navigation li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .site-navigation li {
+        display: inline-block;
+        margin: 1.4em 1em 1em 1em;
+    }
+
+    .animation {
+        position: absolute;
+        left: 70px;
+        top: 150px;
+        animation-name: rotation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .animation2 {
+        position: absolute;
+        right: 70px;
+        bottom: 150px;
+        animation-name: rotation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotation {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    input[type=text] {
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        border: 0;
+        border-color: #6e8efb;
+        border-radius: 15px;
+        background-color: rgb(217, 217, 217);
+    }
+
+    .button {
+        width: 100px;
+        height: 50px;
+    }
+}

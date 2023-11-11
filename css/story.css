@@ -1,0 +1,21 @@
+.img {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: block;
+
+}
+
+.textbox {
+    font-size: 20px;
+    border-radius: 20px;
+    border: black 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 110px;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+}
